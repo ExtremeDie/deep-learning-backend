@@ -12,7 +12,6 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 WORKDIR deep_learning_backend
 
-RUN python3 setup.py install
 EXPOSE 5000
 
 ENTRYPOINT  ["python3"]
