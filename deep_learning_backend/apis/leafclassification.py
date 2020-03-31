@@ -91,9 +91,11 @@ print(model_path)
 if torch.cuda.is_available():
     net = build_network(model_name="resnet152", pretrained=True).cuda()
     net.load_state_dict(torch.load(model_path))
+    net.eval()
 else:
     net = build_network(model_name="resnet152", pretrained=True)
     net.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
+    net.eval()
 
 def predict(img):
     img = transform(img)
@@ -105,5 +107,5 @@ def predict(img):
     out = net(img)
     probs = torch.softmax(out, dim=1)
     idx = probs.argmax(dim=1).item()
-
+    
     return plant_names[idx]
