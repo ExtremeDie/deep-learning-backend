@@ -1,15 +1,13 @@
-# mini_project
-
-# How to start this project?
-
--   Go to the project directory in CMD
--   Type "python setup.py install"
--   Enjoy!
+# deep_learning_backend
 
 # Where to find the source codes?
 
--   In the mini_project folder
+-   In the deep_learning_backend folder
 
 # Do NOT !!!!!
 
 -   Write codes in build folder
+
+# Model 
+
+- 	https://drive.google.com/uc?id=15-PZ8u5TkNbE45dlzDgFRxo_7NKTUASk
