@@ -30,7 +30,9 @@ import random
 from torch.optim import lr_scheduler
 import json
 
-root_path = os.path.join(os.getcwd(), 'deep_learning_backend')
+print(os.getcwd())
+# root_path = os.path.join(os.getcwd(), 'deep_learning_backend') # windows
+root_path = "" # linux
 
 plant_name = os.path.join(root_path, 'plants_name.json')
 with open(plant_name) as plant_name_file:
