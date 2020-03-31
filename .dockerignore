@@ -1,0 +1,5 @@
+# ignore .git folders
+.git
+build/
+dist/
+env/

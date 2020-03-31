@@ -1,0 +1,6 @@
+Cython==0.29.16
+flask-restplus==0.13.0 
+matplotlib==3.2.1 
+torch==1.4.0 -f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.5.0
+Werkzeug==0.16.1
