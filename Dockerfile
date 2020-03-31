@@ -8,7 +8,7 @@ RUN pip3 install --upgrade pip
 
 WORKDIR deep_learning_backend
 
-RUN pip3 install --default-timeout=100 -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 WORKDIR deep_learning_backend
 
